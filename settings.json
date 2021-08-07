@@ -1,0 +1,16 @@
+{
+  "header": "NV6",
+  "experiences": [
+    {
+      "experience_id": "Example",
+      "experience_info": "haha example"
+    }
+  ],
+  "projects": [
+    {
+      "project_name": "Example",
+      "project_url": "https://github.com/Example"
+    }
+  ],
+  "stats_url": "https://github.com/anuraghazra/github-readme-stats"
+}

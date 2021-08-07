@@ -1,0 +1,16 @@
+[package]
+name = "readme-generator"
+version = "0.1.0"
+edition = "2018"
+author = "NV6"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serenity = { version = "0.10", default-features = false, features = [ "builder", "client", "framework", "gateway", "http", "model", "standard_framework", "utils", "rustls_backend"]  }
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+
+lazy_static = "1.4.0"
+
+serde = "1.0.127"
+serde_json = "1.0.66"

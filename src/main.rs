@@ -3,13 +3,14 @@ mod data;
 use data::Settings;
 
 use std::error::Error;
-use std::{fs::File, io::{ErrorKind, Write}};
+use std::{fs::File, io::Write};
 
-fn main() {
+fn main() -> Result<(), Box<dyn Error>> {
     let settings = Settings::load_settings();
     let file = &mut create_file();
 
-    write_to_file(file, settings);
+    write_to_file(file, settings)?;
+    Ok(())
 }
 
 fn create_file() -> File {

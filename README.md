@@ -4,6 +4,9 @@
 ### Chasecraft MCS LLC
 This is my most recent development experience. Chasecraft is a multi-gamemode network offering gamemodes such as Skyblock, Pixelmon and more.
 
+### AkumaMC
+I was developer here for a little while back in early 2021, the network is a prison-based network.
+
 ## Projects
 * [Tab API](https://github.com/TabAPI)
 * [rfetch](https://github.com/rfetch)

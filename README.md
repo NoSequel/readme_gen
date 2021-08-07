@@ -1,6 +1,7 @@
 # NV6
 
-## Example
+## Previous Experiences
+### Example
 haha example
 
 ## Projects

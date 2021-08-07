@@ -2,14 +2,26 @@
   "header": "NV6",
   "experiences": [
     {
-      "experience_id": "Example",
-      "experience_info": "haha example"
+      "experience_id": "Chasecraft MCS LLC",
+      "experience_info": "This is my most recent development experience. Chasecraft is a multi-gamemode network offering gamemodes such as Skyblock, Pixelmon and more."
     }
   ],
   "projects": [
     {
-      "project_name": "Example",
-      "project_url": "https://github.com/Example"
+      "project_name": "Tab API",
+      "project_url": "https://github.com/TabAPI"
+    },
+    {
+      "project_name": "rfetch",
+      "project_url": "https://github.com/rfetch"
+    },
+    {
+      "project_name": "Scoreboard API",
+      "project_url": "https://github.com/ScoreboardAPI"
+    },
+    {
+      "project_name": "Queue Revamp",
+      "project_url": "https://github.com/queue-recode"
     }
   ],
   "stats_url": "https://github-readme-stats.vercel.app/api?username=nosequel"

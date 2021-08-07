@@ -29,7 +29,7 @@ fn write_to_file(file: &mut File, settings: Settings) -> Result<(), Box<dyn Erro
     file.write_all(b"## Projects\n")?;
 
     for project in settings.projects {
-        file.write_all(format!("[{}]({})\n", project.project_name, project.project_url).as_bytes())?;
+        file.write_all(format!("[{}]({})\n\n", project.project_name, project.project_url).as_bytes())?;
     }
 
     file.write_all(format!("\n## Stats\n[![NV6's stats]({})](https://github.com/anuraghazra/github-readme-stats)", settings.stats_url).as_bytes())?;

@@ -7,4 +7,4 @@ haha example
 [Example](https://github.com/Example)
 
 ## Stats
-[![NV6's stats](https://github.com/anuraghazra/github-readme-stats)
+[![NV6's stats](https://github.com/anuraghazra/github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)

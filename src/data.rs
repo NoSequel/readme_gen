@@ -39,7 +39,7 @@ impl Settings {
         } else {
             let settings = Settings {
                 header: String::from("NV6"),
-                stats_url: String::from("https://github.com/anuraghazra/github-readme-stats"),
+                stats_url: String::from("https://github-readme-stats.vercel.app/api?username=nosequel"),
                 projects: vec![
                     Project {
                         project_name: String::from("Example"),

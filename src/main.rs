@@ -19,8 +19,10 @@ fn create_file() -> File {
 fn write_to_file(file: &mut File, settings: Settings) -> Result<(), Box<dyn Error>>{
     file.write_all(format!("# {}\n\n", settings.header).as_bytes())?;
 
+    file.write_all(b"## Previous Experiences\n")?;
+
     for element in settings.clone().experiences {
-        file.write_all(format!("## {}\n", element.experience_id).as_bytes())?;
+        file.write_all(format!("### {}\n", element.experience_id).as_bytes())?;
         file.write_all(format!("{}\n\n", element.experience_info).as_bytes())?;
     }
 
